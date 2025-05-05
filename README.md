@@ -18,12 +18,7 @@ The model integrates several cutting-edge components:
 3. **Diffusion-based Decoder** - State-of-the-art diffusion probabilistic model for generating high-fidelity outputs across modalities
 4. **Modality-specific Generation** - Optimized output generation for images, videos, and text from latent neural representations
 
-<p align="center">
-  <img src="https://i.imgur.com/sample_diagram.png" alt="Brainwave Architecture" width="800"/>
-  <br>
-  <em>Figure 1: High-level architecture of the Brainwave model</em>
-</p>
-
+   
 ## Key Features
 
 - **Multimodal decoding**: Translate brain signals into images, videos, or text with a single model
