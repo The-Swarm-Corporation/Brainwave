@@ -5,21 +5,21 @@ jobs:
   yaml-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
       - run: pip install yamllint
       - run: yamllint .
   flake8-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
       - run: pip install flake8
       - run: flake8 .
   ruff-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
       - run: pip install ruff
       - run: ruff format .
@@ -27,7 +27,7 @@ jobs:
   pylint-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
       - run: pip install pylint
       - run: pylint swarms --recursive=y
